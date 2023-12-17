@@ -50,16 +50,16 @@ echo "Opção inválida. Digite um número válido."
 esac
 done
 if [ "$opcao" -eq 1 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=amd64 > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/amd64_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 2 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=386 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/i386_proxy.zip > /dev/null  2>&1
 :
 elif [ "$opcao" -eq 3 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 4 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm64 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm64_proxy.zip > /dev/null  2>&1
 :
 fi
 unzip proxy.zip > /dev/null
@@ -123,16 +123,16 @@ echo "Opção inválida. Digite um número válido."
 esac
 done
 if [ "$opcao" -eq 1 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=amd64 > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/amd64_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 2 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=386 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/i386_proxy.zip > /dev/null  2>&1
 :
 elif [ "$opcao" -eq 3 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 4 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm64 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm64_proxy.zip > /dev/null  2>&1
 :
 fi
 unzip proxy.zip > /dev/null
@@ -219,16 +219,16 @@ echo "Opção inválida. Digite um número válido."
 esac
 done
 if [ "$opcao" -eq 1 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=amd64 > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/amd64_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 2 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=386 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/i386_proxy.zip > /dev/null  2>&1
 :
 elif [ "$opcao" -eq 3 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 4 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm64 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm64_proxy.zip > /dev/null  2>&1
 :
 fi
 unzip proxy.zip > /dev/null
@@ -292,16 +292,16 @@ echo "Opção inválida. Digite um número válido."
 esac
 done
 if [ "$opcao" -eq 1 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=amd64 > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/amd64_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 2 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=386 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/i386_proxy.zip > /dev/null  2>&1
 :
 elif [ "$opcao" -eq 3 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm_proxy.zip > /dev/null 2>&1
 :
 elif [ "$opcao" -eq 4 ]; then
-wget -O proxy.zip https://download.anyvpn.top/wsproxy/download.php?arch=arm64 > /dev/null  2>&1
+wget -qO- https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/arm64_proxy.zip > /dev/null  2>&1
 :
 fi
 unzip proxy.zip > /dev/null 2>&1
@@ -448,7 +448,7 @@ screen -S udp7500 -X quit > /dev/null
 rm /root/sslh  > /dev/null  2>&1
 cd /root
 apt-get install -y sslh > /dev/null
-wget https://download.anyvpn.top/wsproxy/sslh > /dev/null  > /dev/null  2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/Proxy-Golang/main/sslh > /dev/null  > /dev/null  2>&1
 mv sslh /etc/default/sslh > /dev/null
 /etc/init.d/sslh restart > /dev/null
 cd /root/proxy
