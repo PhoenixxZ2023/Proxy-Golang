@@ -633,6 +633,7 @@ echo "11. MUDAR OS CONFIGURAÇÕES"
 echo "12. REMOVER TUDO"
 echo "13. CORRIGIR OPEN NÃO GERAR DADOS"
 echo "14. CHECKUSER"
+echo "00. SAIR"
 read -p "Digite o número da opção desejada: " opcao
 case $opcao in
 1)
@@ -677,8 +678,11 @@ fixopen
 14)
 checkuser
 ;;
+0 | 00)
+clear
+exit
 *)
 echo "Opção inválida."
-exit 1
+sleep 2
 ;;
 esac
