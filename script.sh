@@ -681,7 +681,6 @@ checkuser
 0 | 00)
 clear
 exit
-*)
 echo "Opção inválida."
 sleep 2
 ;;
